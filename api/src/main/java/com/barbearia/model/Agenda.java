@@ -10,7 +10,7 @@ import java.util.Date;
 public class Agenda {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @GeneratedValue(strategy = GenerationType.AUTO)
     private Long id;
 
     @Column(name = "data_agendada")

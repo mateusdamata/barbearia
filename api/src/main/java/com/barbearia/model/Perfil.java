@@ -12,8 +12,8 @@ import javax.persistence.Id;
 public class Perfil {
 
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY )
-    private Long id;
+    @GeneratedValue(strategy = GenerationType.AUTO )
+    private long id;
 
     private String nome;
 
